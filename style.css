@@ -1,0 +1,387 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+html {
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+/* ===================== */
+/*    FIREST SECTION    */
+/* ===================== */
+.first-section {
+  height: 110vh;
+  background-image: url('image/blue_bg.png');
+  background-size: cover;
+  background-repeat: no-repeat;
+  padding-top: 30px;
+}
+
+/* ===================== */
+/*    NAVBAR    */
+/* ===================== */
+
+.first-section nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 100px;
+  padding: 20px 100px 0px;
+}
+
+.first-section nav ul {
+  list-style: none;
+  display: flex;
+  align-items: center;
+}
+
+.first-section nav ul li {
+  padding-left: 25px;
+}
+
+.first-section nav ul li .item {
+  text-decoration: none;
+  font-size: 18px;
+  color: #333;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.first-section nav ul li .item:hover,
+.first-section nav ul li .item:focus {
+  border-bottom: solid rgb(178, 25, 219);
+  color: rgb(178, 25, 219);
+  transition: .15s;
+}
+
+.first-section nav ul li a img {
+  width: 130px;
+}
+
+.first-section nav .login {
+  padding: 15px 30px;
+  background: white;
+  border-radius: 40px;
+  text-decoration: none;
+  font-size: 18px;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  color: #333;
+}
+
+/* ===================== */
+/*    HERO               */
+/* ===================== */
+
+.hero {
+  display: flex;
+  justify-content: center;
+}
+
+.hero .text {
+  width: 60%;
+  padding-left: 120px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+
+.hero .text h3 {
+  font-size: 45px;
+  color: #637279;
+  font-weight: 600;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.hero .text h3 span {
+  color: #7a3d8a;
+}
+
+.hero .text .text_sent {
+  color: #afafaf;
+  font-size: 22px;
+  margin-top: 20px;
+  line-height: 2;
+  font-weight: 800;
+}
+
+.hero .figure {
+  width: 50%;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  position: relative;
+
+}
+
+.hero .figure .landing_bg {
+  width: 100%;
+  height: 100%;
+}
+
+.hero .figure .mask {
+  position: absolute;
+  width: 45%;
+  height: 80%;
+  left: 25%;
+  top: 0;
+}
+
+.hero .figure .clouds {
+  position: absolute;
+  width: 60%;
+  top: 70%;
+  left: 20%;
+}
+
+.waves {
+  width: 90%;
+  position: absolute;
+  top: 90%;
+  left: -18%;
+}
+
+/* ===================== */
+/*    SECOND SECTION     */
+/* ===================== */
+
+.second_section {
+  height: 120vh;
+  text-align: center;
+  position: relative;
+  padding: 0px 100px;
+  margin-top: 140px;
+}
+
+.second_section .figures .fig1 {
+  width: 30%;
+  position: absolute;
+  top: 16%;
+  left: 10%;
+}
+
+.second_section .figures .fig2 {
+  width: 30%;
+  position: absolute;
+  top: 32%;
+  left: 40%;
+}
+
+.second_section .figures .fig3 {
+  width: 30%;
+  position: absolute;
+  top: 65%;
+  left: 60%;
+}
+
+.second_section .figures h3 {
+  color: #999;
+  font-size: 25px;
+
+}
+
+.second_section .figures p {
+  color: #b9b9b9;
+  font-size: 20px;
+  line-height: 35px;
+}
+
+
+.second_section .background {
+  position: absolute;
+  width: 60%;
+  left: 26%;
+  top: 8%;
+  height: 60%;
+}
+
+
+.second_section .fig4 {
+  position: absolute;
+  top: 65%;
+  left: 10%;
+}
+
+.second_section .fig4 .component {
+  position: relative;
+
+}
+
+.second_section .fig4 .component img {
+  width: 75%;
+
+}
+
+.second_section .fig4 .component div {
+  position: absolute;
+  top: 30%;
+  left: 25%;
+  text-align: left;
+}
+
+.second_section .fig4 .component div p {
+  color: white;
+  font-size: 25px;
+}
+
+.second_section .fig4 .component div h3 {
+  color: white;
+  font-size: 50px;
+  font-weight: 400;
+}
+
+/* ===================== */
+/*    THIRD SECTION      */
+/* ===================== */
+
+.third_section {
+  padding: 350px 50px 10px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+
+.third_section .mid_fig {
+  padding: 0px 40px;
+}
+
+.third_section .mid_fig img {
+  width: 70%;
+  height: auto;
+}
+
+.third_section .mid_fig .arrows {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: end;
+}
+
+.third_section .mid_fig .arrows i {
+  margin-bottom: 100px;
+}
+
+.third_section .mid_fig .text {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.third_section .mid_fig .text h3 {
+  color: #999;
+  font-size: 25px;
+}
+
+.third_section .mid_fig .text p {
+  width: 55%;
+  color: #b9b9b9;
+  font-size: 20px;
+  font-weight: 400;
+  margin-top: 10px;
+}
+
+/* ===================== */
+/*         FOOTER        */
+/* ===================== */
+
+footer{
+  position: relative;
+  height: 80vh;
+  overflow: hidden;
+}
+
+footer .bgImg{
+  position: absolute;
+  width: 110%;
+  height: 150%;
+  left: -3%;
+  top: 0;
+}
+
+footer .people{
+  position: absolute;
+  width: 40vw;
+  right: 10%;
+  bottom: 0;
+}
+
+footer .footLinks {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  width: 30%;
+  height: 80%;
+  margin-top: 15%;
+}
+
+footer .footLinks .apps{
+  display: flex;
+  justify-content: space-evenly;
+  z-index: 3;
+  width: 75%;
+}
+
+
+footer .footLinks .apps a{
+  text-decoration: none;
+
+}
+
+footer .footLinks .apps a .store{
+  width: 115px;
+  height: 40px;
+  background: white;
+  border-radius: 12px;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  
+}
+
+footer .footLinks .apps div .text {
+  display: flex;
+  flex-direction: column;
+  text-decoration: none;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+footer .footLinks .social{
+  width: 250px;
+  z-index: 3;
+}
+
+footer .footLinks .social  img{
+  width: 25px;
+  height: 25px;
+  margin-right: 8px;
+  margin-top: 13px;
+}
+
+footer .footLinks ul{
+  display: flex;
+  justify-content: space-evenly;
+  margin-left: 18%;
+  margin-top: 20px;
+  list-style-type: none;
+  width: 88%;
+}
+
+footer .footLinks ul li{
+  margin-right: 0px;
+  z-index: 3;
+  /* border: solid; */
+}
+
+footer .footLinks ul li a{
+  text-decoration: none;
+  font-size: 16px;
+  color: #fff;
+}
+
+
+
+
