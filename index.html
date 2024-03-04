@@ -5,7 +5,7 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <link rel="stylesheet" href="style.css">
-  <script src="https://kit.fontawesome.com/6586d06973.js" crossorigin="anonymous"></script>
+  <script src="https://kit.fontawesome.com/f08599680c.js" crossorigin="anonymous"></script>
   <title>KUDZOKA</title>
 </head>
 
@@ -18,15 +18,57 @@
     <!--             NAVBAR             -->
     <!-- ============================== -->
     <nav>
-      <ul>
-        <li><a href="#"><img src="image/logo.png" alt=""></a></li>
-        <li><a class="item" href="#">Home</a></li>
-        <li><a class="item" href="#">Services</a></li>
-        <li><a class="item" href="#">About Us</a></li>
-        <li><a class="item" href="#">Help Center</a></li>
+      <ul class="sidebar">
+        <li onclick=hideSidebar()><a href="#"><i class="fa-solid fa-xmark"></i></a></li>
+        <li>
+          <a class="item" href="#">Home</a>
+        </li>
+        <li>
+          <a class="item" href="#">Services</a>
+        </li>
+        <li>
+          <a class="item" href="#">About Us</a>
+        </li>
+        <li>
+          <a class="item" href="#">Help Center</a>
+        </li>
+        <li class="loginBtn"><a href="#" class="login">Login</a></li>
+
       </ul>
 
-      <a href="#" class="login">Login</a>
+      <ul class="baseLinks">
+        <li><a href="#"><img src="image/logo.png" alt=""></a></li>
+        <li class=" hideOnMobile">
+          <a class="item" href="#">Home</a>
+        </li>
+        <li class=" hideOnMobile">
+          <a class="item" href="#">Services</a>
+        </li>
+        <li class=" hideOnMobile">
+          <a class="item" href="#">About Us</a>
+        </li>
+        <li class=" hideOnMobile">
+          <a class="item" href="#">Help Center</a>
+        </li>
+        <li class="loginBtn hideOnMobile"><a href="#" class="login">Login</a></li>
+
+        <li onclick=showSidebar() class="menu-button">
+          <a href="#"><i class="fa-solid fa-bars "></i></a>
+        </li>
+      </ul>
+
+
+      <!-- <a href="#"><i class="menu-button fa-solid fa-bars "></i></a> -->
+
+
+      <!-- 
+        must to edit
+        logo 
+        login
+        menu-button
+       -->
+
+
     </nav>
 
     <div class="hero">
@@ -133,9 +175,15 @@
         </a>
       </div>
       <div class="social">
-        <img src="image/Icon awesome-instagram.png" alt="">
-        <img src="image/Icon simple-whatsapp.png" alt="">
-        <img src="image/Icon feather-facebook.png" alt="">
+        <a href="#">
+          <img src="image/Icon awesome-instagram.png" alt="">
+        </a>
+        <a href="#">
+          <img src="image/Icon simple-whatsapp.png" alt="">
+        </a>
+        <a href="#">
+          <img src="image/Icon feather-facebook.png" alt="">
+        </a>
       </div>
       <ul>
         <li><a href="#">Home</a></li>
@@ -145,6 +193,8 @@
       </ul>
     </div>
   </footer>
+
+  <script src="main.js"></script>
 </body>
 
 </html>
